@@ -1,7 +1,26 @@
-<app-user-list></app-user-list>
+<!-- <app-user-list></app-user-list> -->
 
-<pre>
-    {{ users | json }}
+<!-- <pre>
+    {{ users.name | json }}
     {{ groups | json }}
     {{ schools | json }}
-</pre>
+</pre> -->
+
+<div class="container-box">
+    <table class="table table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Groups</th>
+                <th>Schools</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of mappedUsers$ | async; trackBy: trackUser">
+                <td>{{ user.name }}</td>
+                <td>{{ user.groupName }}</td>
+                <td>{{ user.schoolName }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

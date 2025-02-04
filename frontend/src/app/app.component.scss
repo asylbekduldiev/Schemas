@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container-box {
+    width: 900px;
+    height: 800px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse; /* Убирает двойные границы */
+}
+
+/* Стили для заголовков */
+.table-dark th {
+    background-color: #343a40; /* Темный фон для заголовков */
+    color: white; /* Белый текст */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Границы между колонками */
+.table-bordered th,
+.table-bordered td {
+    border-right: 2px solid; /* Линии между колонками */
+}
+
+/* Цвета для линий между колонками */
+.table-bordered th:nth-child(1),
+.table-bordered td:nth-child(1) {
+    border-right-color: #ff6347; /* Красный для Name */
+}
+
+.table-bordered th:nth-child(2),
+.table-bordered td:nth-child(2) {
+    border-right-color: #4682b4; /* Синий для Groups */
+}
+
+.table-bordered th:nth-child(3),
+.table-bordered td:nth-child(3) {
+    border-right-color: #32cd32; /* Зеленый для Schools */
+}
+
+/* Границы между строками */
+.table-bordered tbody tr {
+    border-bottom: 1px solid #ddd; /* Линии между строками */
+}
+
+/* Убираем границу у последней строки */
+.table-bordered tbody tr:last-child {
+    border-bottom: none;
+}
+
+/* Стили для ячеек */
+.table-bordered td {
+    padding: 10px;
+    text-align: center;
+}
