@@ -1,0 +1,11 @@
+com/myproject/dao/SchoolDAO.class
+com/myproject/dao/UserDAO.class
+com/myproject/server/Main.class
+com/myproject/models/School.class
+com/myproject/models/Group.class
+com/myproject/server/SchoolHandler.class
+com/myproject/models/User.class
+com/myproject/dao/GroupDAO.class
+com/myproject/server/GroupHandler.class
+com/myproject/DatabaseConnection.class
+com/myproject/server/UserHandler.class

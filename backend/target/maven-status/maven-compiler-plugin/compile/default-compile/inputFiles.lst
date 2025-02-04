@@ -1,0 +1,11 @@
+/Users/asylbekduldiev/admin-p/backend/src/main/java/com/myproject/DatabaseConnection.java
+/Users/asylbekduldiev/admin-p/backend/src/main/java/com/myproject/dao/GroupDAO.java
+/Users/asylbekduldiev/admin-p/backend/src/main/java/com/myproject/dao/SchoolDAO.java
+/Users/asylbekduldiev/admin-p/backend/src/main/java/com/myproject/dao/UserDAO.java
+/Users/asylbekduldiev/admin-p/backend/src/main/java/com/myproject/models/Group.java
+/Users/asylbekduldiev/admin-p/backend/src/main/java/com/myproject/models/School.java
+/Users/asylbekduldiev/admin-p/backend/src/main/java/com/myproject/models/User.java
+/Users/asylbekduldiev/admin-p/backend/src/main/java/com/myproject/server/GroupHandler.java
+/Users/asylbekduldiev/admin-p/backend/src/main/java/com/myproject/server/Main.java
+/Users/asylbekduldiev/admin-p/backend/src/main/java/com/myproject/server/SchoolHandler.java
+/Users/asylbekduldiev/admin-p/backend/src/main/java/com/myproject/server/UserHandler.java
